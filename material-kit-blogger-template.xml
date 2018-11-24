@@ -77,7 +77,7 @@ div.innerHTML = summary;
 </script>
 <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons' rel='stylesheet' type='text/css'/>
 <link href='https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
-<link href='https://skiddow.github.io/Materil-Kit-Blogger-Template/css/material-kit.min.css' rel='stylesheet'/>
+<link href='https://skiddow.github.io/Material-Kit-Blogger-Template/css/material-kit.min.css' rel='stylesheet'/>
   
 </head>
 <body class='index-page sidebar-collapse'>
@@ -1192,7 +1192,7 @@ var relatedPostConfig = {
    
 	<hr/>
 	<div class="sharing-area text-center">
-        <a id="github" href="https://github.com/skiddow/Materil-Kit-Blogger-Template" class="btn btn-raised btn-github">
+        <a id="github" href="https://github.com/skiddow/Material-Kit-Blogger-Template" class="btn btn-raised btn-github">
             <i class="fa fa-github"></i> Github page
           <div class="ripple-container"></div></a>
         </div>
@@ -1226,8 +1226,8 @@ jQuery(document).ready(function($) {
 </script>
 <!--   Core JS Files   -->
     <script src='https://code.jquery.com/jquery-3.2.1.min.js'/>
-    <script src='https://skiddow.github.io/Materil-Kit-Blogger-Template/js/popper.min.js'/>
-    <script src='https://skiddow.github.io/Materil-Kit-Blogger-Template/js/bootstrap-material-design.min.js'/>
+    <script src='https://skiddow.github.io/Material-Kit-Blogger-Template/js/popper.min.js'/>
+    <script src='https://skiddow.github.io/Material-Kit-Blogger-Template/js/bootstrap-material-design.min.js'/>
     <!--  Plugin for Date Time Picker and Full Calendar Plugin  -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js'/>
     <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
@@ -1235,7 +1235,7 @@ jQuery(document).ready(function($) {
     <!--	Plugin for the Sliders, full documentation here: https://refreshless.com/nouislider/ -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.1.0/nouislider.min.js'/>
     <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
-    <script src='https://skiddow.github.io/Materil-Kit-Blogger-Template/js/material-kit.min.js?v=2.0.4'/>
+    <script src='https://skiddow.github.io/Material-Kit-Blogger-Template/js/material-kit.min.js?v=2.0.4'/>
 	<script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e4663296a91ad4b' type='text/javascript'/>
 	
 	
