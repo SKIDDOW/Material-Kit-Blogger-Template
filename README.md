@@ -1,3 +1,3 @@
 # Materil-Kit-Blogger-Template
 
-This template is under dev. 
+Demo: https://materialkit.blogspot.com/
