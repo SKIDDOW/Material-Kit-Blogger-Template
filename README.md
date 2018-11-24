@@ -1,4 +1,4 @@
-# Materil-Kit-Blogger-Template
+# Materil Kit Blogger Template
 
 Demo: https://materialkit.blogspot.com/
 
