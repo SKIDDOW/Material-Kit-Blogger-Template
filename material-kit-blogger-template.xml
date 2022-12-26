@@ -78,8 +78,8 @@ div.innerHTML = summary;
 <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700' rel='stylesheet' type='text/css'/>
 
 <!-- Nucleo Icons -->
-<link href='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/css/nucleo-icons.css' rel='stylesheet'/>
-<link href='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/css/nucleo-svg.css' rel='stylesheet'/>
+<link href='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/css/nucleo-icons.css' rel='stylesheet'/>
+<link href='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/css/nucleo-svg.css' rel='stylesheet'/>
 
 <!-- Font Awesome Icons -->
 <script crossorigin='anonymous' src='https://kit.fontawesome.com/42d5adcbca.js'/>
@@ -88,7 +88,7 @@ div.innerHTML = summary;
 <link href='https://fonts.googleapis.com/icon?family=Material+Icons+Round' rel='stylesheet'/>
 
 <!-- CSS Files -->
-<link href='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/css/material-kit.css?v=3.0.4' id='pagestyle' rel='stylesheet'/>
+<link href='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/css/material-kit.css?v=3.0.4' id='pagestyle' rel='stylesheet'/>
   
 </head>
 <body class='index-page bg-gray-200'>
@@ -113,7 +113,7 @@ div.innerHTML = summary;
           <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="material-icons opacity-6 me-2 text-md">dashboard</i>
             Pages
-            <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2"/>
+            <img src="https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2"/>
           </a>
           <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
             <div class="d-none d-lg-block">
@@ -168,7 +168,7 @@ div.innerHTML = summary;
           <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="material-icons opacity-6 me-2 text-md">view_day</i>
             Sections
-            <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2"/>
+            <img src="https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2"/>
           </a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuBlocks">
             <div class="d-none d-lg-block">
@@ -179,7 +179,7 @@ div.innerHTML = summary;
           <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Page Sections</h6>
           <span class="text-sm">See all sections</span>
         </div>
-        <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
+        <img src="https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
       </div>
     </a>
     <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
@@ -199,7 +199,7 @@ div.innerHTML = summary;
           <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Navigation</h6>
           <span class="text-sm">See all navigations</span>
         </div>
-        <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
+        <img src="https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
       </div>
     </a>
     <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
@@ -222,7 +222,7 @@ div.innerHTML = summary;
           <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Input Areas</h6>
           <span class="text-sm">See all input areas</span>
         </div>
-        <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
+        <img src="https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
       </div>
     </a>
     <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
@@ -242,7 +242,7 @@ div.innerHTML = summary;
           <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Attention Catchers</h6>
           <span class="text-sm">See all examples</span>
         </div>
-        <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
+        <img src="https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
       </div>
     </a>
     <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
@@ -266,7 +266,7 @@ div.innerHTML = summary;
           <span class="text-sm">See all elements</span>
         </div>
 
-        <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
+        <img src="https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
       </div>
     </a>
     <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
@@ -421,7 +421,7 @@ div.innerHTML = summary;
           <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="material-icons opacity-6 me-2 text-md">article</i>
             Docs
-            <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2"/>
+            <img src="https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2"/>
           </a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
             <div class="d-none d-lg-block">
@@ -1586,27 +1586,27 @@ jQuery(document).ready(function($) {
 </script>
 	
 <!--   Core JS Files   -->
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/core/popper.min.js' type='text/javascript'/>
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/core/bootstrap.min.js' type='text/javascript'/>
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/perfect-scrollbar.min.js'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/core/popper.min.js' type='text/javascript'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/core/bootstrap.min.js' type='text/javascript'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/plugins/perfect-scrollbar.min.js'/>
 
 <!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/countup.min.js'/>
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/choices.min.js'/>
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/prism.min.js'/>
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/highlight.min.js'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/plugins/countup.min.js'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/plugins/choices.min.js'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/plugins/prism.min.js'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/plugins/highlight.min.js'/>
 
 
 <!--  Plugin for Parallax, full documentation here: https://github.com/dixonandmoe/rellax -->
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/rellax.min.js'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/plugins/rellax.min.js'/>
 <!--  Plugin for TiltJS, full documentation here: https://gijsroge.github.io/tilt.js/ -->
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/tilt.min.js'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/plugins/tilt.min.js'/>
 <!--  Plugin for Selectpicker - ChoicesJS, full documentation here: https://github.com/jshjohnson/Choices -->
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/choices.min.js'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/plugins/choices.min.js'/>
 
 
 <!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
-<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/parallax.min.js'/>
+<script src='https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/assets/js/plugins/parallax.min.js'/>
 	
 </body>
 </html>

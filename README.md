@@ -11,5 +11,5 @@ Find below line and replace it with your Disqus script
 <!--Replace this line with your Disqus code -->
 ```
 <p align="center">
-  <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/Capture.JPG">
+  <img src="https://raw.githubusercontent.com/SKIDDOW/Material-Kit-Blogger-Template/master/Capture.JPG">
 </p>
