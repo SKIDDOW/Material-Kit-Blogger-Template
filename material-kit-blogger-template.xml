@@ -15,8 +15,6 @@
 <title><data:blog.pageName/></title>  
 </b:if>
 
-
-
 <b:skin><![CDATA[
 .sk-header {
 color: #fff;
@@ -77,99 +75,448 @@ div.innerHTML = summary;
 </script>
 
 <!--     Fonts and icons     -->
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700' rel='stylesheet' type='text/css'/>
 
 <!-- Nucleo Icons -->
-<link href="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/css/nucleo-icons.css" rel="stylesheet" />
-<link href="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/css/nucleo-svg.css" rel="stylesheet" />
+<link href='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/css/nucleo-icons.css' rel='stylesheet'/>
+<link href='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/css/nucleo-svg.css' rel='stylesheet'/>
 
 <!-- Font Awesome Icons -->
-<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+<script crossorigin='anonymous' src='https://kit.fontawesome.com/42d5adcbca.js'/>
 
 <!-- Material Icons -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<link href='https://fonts.googleapis.com/icon?family=Material+Icons+Round' rel='stylesheet'/>
 
 <!-- CSS Files -->
-<link id="pagestyle" href="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/css/material-kit.css?v=3.0.4" rel="stylesheet" />
+<link href='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/css/material-kit.css?v=3.0.4' id='pagestyle' rel='stylesheet'/>
   
 </head>
-<body class='index-page sidebar-collapse'>
+<body class='index-page bg-gray-200'>
+
 <!--start:NAVIGATION -->
+<div class="container position-sticky z-index-sticky top-0"><div class="row"><div class="col-12">
+<nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+  <div class="container-fluid px-0">
+    <a class="navbar-brand font-weight-bolder ms-sm-3" href="/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
+      Material Kit Blogger Template
+    </a>
+    <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon mt-2">
+        <span class="navbar-toggler-bar bar1"></span>
+        <span class="navbar-toggler-bar bar2"></span>
+        <span class="navbar-toggler-bar bar3"></span>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
+      <ul class="navbar-nav navbar-nav-hover ms-auto">
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="material-icons opacity-6 me-2 text-md">dashboard</i>
+            Pages
+            <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2"/>
+          </a>
+          <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
+            <div class="d-none d-lg-block">
+  <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+    Landing Pages
+  </h6>
+  <a href="./pages/about-us.html" class="dropdown-item border-radius-md">
+    <span>About Us</span>
+  </a>
+  <a href="./pages/contact-us.html" class="dropdown-item border-radius-md">
+    <span>Contact Us</span>
+  </a>
+  <a href="./pages/author.html" class="dropdown-item border-radius-md">
+    <span>Author</span>
+  </a>
+  <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3">
+    Account
+  </h6>
+  <a href="./pages/sign-in.html" class="dropdown-item border-radius-md">
+    <span>Sign In</span>
+  </a>
+</div>
 
-<nav class='navbar fixed-top navbar-expand-lg' color-on-scroll='100' id='sectionsNav'>
-    <div class='container'>
-        <div class='navbar-translate'>
-            <a class='navbar-brand' href='/'>
-              Material Kit </a>
-            <button aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-toggle='collapse' type='button'>
-              <span class='sr-only'>Toggle navigation</span>
-              <span class='navbar-toggler-icon'/>
-              <span class='navbar-toggler-icon'/>
-              <span class='navbar-toggler-icon'/>
-            </button>
+<div class="d-lg-none">
+  <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+    Landing Pages
+  </h6>
+
+  <a href="./pages/about-us.html" class="dropdown-item border-radius-md">
+    <span>About Us</span>
+  </a>
+  <a href="./pages/contact-us.html" class="dropdown-item border-radius-md">
+    <span>Contact Us</span>
+  </a>
+  <a href="./pages/author.html" class="dropdown-item border-radius-md">
+    <span>Author</span>
+  </a>
+
+  <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3">
+    Account
+  </h6>
+  <a href="./pages/sign-in.html" class="dropdown-item border-radius-md">
+    <span>Sign In</span>
+  </a>
+
+</div>
+
+          </div>
+        </li>
+
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="material-icons opacity-6 me-2 text-md">view_day</i>
+            Sections
+            <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2"/>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuBlocks">
+            <div class="d-none d-lg-block">
+  <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./presentation.html">
+      <div class="w-100 d-flex align-items-center justify-content-between">
+        <div>
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Page Sections</h6>
+          <span class="text-sm">See all sections</span>
         </div>
-
-        <div class='collapse navbar-collapse'>
-            <ul class='navbar-nav ml-auto'>
-
-              
-
-                <li class='dropdown nav-item'>
-                  <a class='dropdown-toggle nav-link' data-toggle='dropdown' href='#'>
-                      <i class='material-icons'>apps</i> Components
-                  </a>
-                  <div class='dropdown-menu dropdown-with-icons'>
-                    <a class='dropdown-item' href='#'>
-                        <i class='material-icons'>layers</i> All Components
-                    </a>
-                    <a class='dropdown-item' href='#'>
-                        <i class='material-icons'>content_paste</i> Documentation
-                    </a>
-                  </div>
-                </li>
-
-          				<li class='nav-item'>
-          					<a class='nav-link' href='javascript:void(0)' onclick='scrollToDownload()'>
-          						<i class='material-icons'>cloud_download</i> Download
-          					</a>
-          				</li>
-          				<li class='nav-item'>
-          					<a class='nav-link' data-original-title='Follow us on Twitter' data-placement='bottom' href='#' rel='tooltip' target='_blank' title=''>
-          						<i class='fa fa-twitter'/>
-          					</a>
-          				</li>
-          				<li class='nav-item'>
-          					<a class='nav-link' data-original-title='Like us on Facebook' data-placement='bottom' href='#' rel='tooltip' target='_blank' title=''>
-          						<i class='fa fa-facebook-square'/>
-          					</a>
-          				</li>
-          				<li class='nav-item'>
-          					<a class='nav-link' data-original-title='Follow us on Instagram' data-placement='bottom' href='#' rel='tooltip' target='_blank' title=''>
-          						<i class='fa fa-instagram'/>
-          					</a>
-          				</li>
-
-              
-            </ul>
-        </div>
+        <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
+      </div>
+    </a>
+    <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/page-sections/hero-sections.html">
+        Page Headers
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/page-sections/features.html">
+        Features
+      </a>
     </div>
-</nav>	
+  </li>
+
+  <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./presentation.html">
+      <div class="w-100 d-flex align-items-center justify-content-between">
+        <div>
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Navigation</h6>
+          <span class="text-sm">See all navigations</span>
+        </div>
+        <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
+      </div>
+    </a>
+    <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/navigation/navbars.html">
+        Navbars
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/navigation/nav-tabs.html">
+        Nav Tabs
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/navigation/pagination.html">
+        Pagination
+      </a>
+    </div>
+  </li>
+
+  <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./presentation.html">
+      <div class="w-100 d-flex align-items-center justify-content-between">
+        <div>
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Input Areas</h6>
+          <span class="text-sm">See all input areas</span>
+        </div>
+        <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
+      </div>
+    </a>
+    <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/input-areas/inputs.html">
+        Inputs
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/input-areas/forms.html">
+        Forms
+      </a>
+    </div>
+  </li>
+
+  <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./presentation.html">
+      <div class="w-100 d-flex align-items-center justify-content-between">
+        <div>
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Attention Catchers</h6>
+          <span class="text-sm">See all examples</span>
+        </div>
+        <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
+      </div>
+    </a>
+    <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/attention-catchers/alerts.html">
+        Alerts
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/attention-catchers/modals.html">
+        Modals
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/attention-catchers/tooltips-popovers.html">
+        Tooltips &amp; Popovers
+      </a>
+    </div>
+  </li>
+
+  <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./presentation.html">
+      <div class="w-100 d-flex align-items-center justify-content-between">
+        <div>
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Elements</h6>
+          <span class="text-sm">See all elements</span>
+        </div>
+
+        <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow.svg" alt="down-arrow" class="arrow"/>
+      </div>
+    </a>
+    <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/avatars.html">
+        Avatars
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/badges.html">
+        Badges
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/breadcrumbs.html">
+        Breadcrumbs
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/buttons.html">
+        Buttons
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/dropdowns.html">
+        Dropdowns
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/progress-bars.html">
+        Progress Bars
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/toggles.html">
+        Toggles
+      </a>
+      <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/typography.html">
+        Typography
+      </a>
+    </div>
+  </li>
+</div>
+
+<div class="row d-lg-none">
+  <div class="col-md-12">
+    <div class="d-flex mb-2">
+      <div class="icon h-10 me-3 d-flex mt-1">
+        <i class="ni ni-single-copy-04 text-gradient text-primary"></i>
+      </div>
+      <div class="w-100 d-flex align-items-center justify-content-between">
+        <div>
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Page Sections</h6>
+        </div>
+      </div>
+    </div>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/page-sections/hero-sections.html">
+      Page Headers
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/page-sections/features.html">
+      Features
+    </a>
+
+    <div class="d-flex mb-2 mt-3">
+      <div class="icon h-10 me-3 d-flex mt-1">
+        <i class="ni ni-laptop text-gradient text-primary"></i>
+      </div>
+      <div class="w-100 d-flex align-items-center justify-content-between">
+        <div>
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Navigation</h6>
+        </div>
+      </div>
+    </div>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/navigation/navbars.html">
+      Navbars
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/navigation/nav-tabs.html">
+      Nav Tabs
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/navigation/pagination.html">
+      Pagination
+    </a>
+
+
+    <div class="d-flex mb-2 mt-3">
+      <div class="icon h-10 me-3 d-flex mt-1">
+        <i class="ni ni-badge text-gradient text-primary"></i>
+      </div>
+      <div class="w-100 d-flex align-items-center justify-content-between">
+        <div>
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Input Areas</h6>
+        </div>
+      </div>
+    </div>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/input-areas/inputs.html">
+      Inputs
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/input-areas/forms.html">
+      Forms
+    </a>
+
+
+    <div class="d-flex mb-2 mt-3">
+      <div class="icon h-10 me-3 d-flex mt-1">
+        <i class="ni ni-notification-70 text-gradient text-primary"></i>
+      </div>
+      <div class="w-100 d-flex align-items-center justify-content-between">
+        <div>
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Attention Catchers</h6>
+        </div>
+      </div>
+    </div>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/attention-catchers/alerts.html">
+      Alerts
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/attention-catchers/modals.html">
+      Modals
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/attention-catchers/tooltips-popovers.html">
+      Tooltips &amp; Popovers
+    </a>
+
+
+    <div class="d-flex mb-2 mt-3">
+      <div class="icon h-10 me-3 d-flex mt-1">
+        <i class="ni ni-app text-gradient text-primary"></i>
+      </div>
+      <div class="w-100 d-flex align-items-center justify-content-between">
+        <div>
+          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Elements</h6>
+        </div>
+      </div>
+    </div>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/avatars.html">
+      Avatars
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/badges.html">
+      Badges
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/breadcrumbs.html">
+      Breadcrumbs
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/buttons.html">
+      Buttons
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/dropdowns.html">
+      Dropdowns
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/progress-bars.html">
+      Progress Bars
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/toggles.html">
+      Toggles
+    </a>
+    <a class="dropdown-item ps-3 border-radius-md mb-1" href="./sections/elements/typography.html">
+      Typography
+    </a>
+  </div>
+</div>
+
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="material-icons opacity-6 me-2 text-md">article</i>
+            Docs
+            <img src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2"/>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
+            <div class="d-none d-lg-block">
+  <ul class="list-group">
+    <li class="nav-item list-group-item border-0 p-0">
+      <a class="dropdown-item py-2 ps-3 border-radius-md" href=" https://www.creative-tim.com/learning-lab/bootstrap/overview/material-kit ">
+        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Getting Started</h6>
+        <span class="text-sm">All about overview, quick start, license and contents</span>
+      </a>
+    </li>
+    <li class="nav-item list-group-item border-0 p-0">
+      <a class="dropdown-item py-2 ps-3 border-radius-md" href=" https://www.creative-tim.com/learning-lab/bootstrap/colors/material-kit ">
+        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Foundation</h6>
+        <span class="text-sm">See our colors, icons and typography</span>
+      </a>
+    </li>
+    <li class="nav-item list-group-item border-0 p-0">
+      <a class="dropdown-item py-2 ps-3 border-radius-md" href=" https://www.creative-tim.com/learning-lab/bootstrap/alerts/material-kit ">
+        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Components</h6>
+        <span class="text-sm">Explore our collection of fully designed components</span>
+      </a>
+    </li>
+    <li class="nav-item list-group-item border-0 p-0">
+      <a class="dropdown-item py-2 ps-3 border-radius-md" href=" https://www.creative-tim.com/learning-lab/bootstrap/datepicker/material-kit ">
+        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Plugins</h6>
+        <span class="text-sm">Check how you can integrate our plugins</span>
+      </a>
+    </li>
+    <li class="nav-item list-group-item border-0 p-0">
+      <a class="dropdown-item py-2 ps-3 border-radius-md" href=" https://www.creative-tim.com/learning-lab/bootstrap/utilities/material-kit ">
+        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Utility Classes</h6>
+        <span class="text-sm">For those who want flexibility, use our utility classes</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="row d-lg-none">
+  <div class="col-md-12 g-0">
+    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
+      <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Getting Started</h6>
+      <span class="text-sm">All about overview, quick start, license and contents</span>
+    </a>
+
+    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
+      <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Foundation</h6>
+      <span class="text-sm">See our colors, icons and typography</span>
+    </a>
+
+    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
+      <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Components</h6>
+      <span class="text-sm">Explore our collection of fully designed components</span>
+    </a>
+
+    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
+      <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Plugins</h6>
+      <span class="text-sm">Check how you can integrate our plugins</span>
+    </a>
+
+    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
+      <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Utility Classes</h6>
+      <span class="text-sm">For those who want flexibility, use our utility classes</span>
+    </a>
+  </div>
+</div>
+
+          </ul>
+        </li>
+        <li class="nav-item ms-lg-auto">
+          <a class="nav-link nav-link-icon me-2" href="https://github.com/SKIDDOW/Material-Kit-Blogger-Template" target="_blank">
+            <i class="fa fa-github me-1" aria-hidden="true"></i>
+            <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom">Github</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div></div></div>
+<!--end:NAVIGATION-->
 
 <b:if cond='data:blog.url == data:blog.homepageUrl'><b:section class='HOMEPAGE-SLIDER' id='HOMEPAGE-SLIDER' showaddelement='yes'>
   <b:widget id='HTML1' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;div class=&quot;page-header header-filter clear-filter purple-filter&quot; data-parallax=&quot;true&quot; style=&quot;background-image: url(&amp;quot;https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Buzz_salutes_the_U.S._Flag-crop.jpg/800px-Buzz_salutes_the_U.S._Flag-crop.jpg&amp;quot;); transform: translate3d(0px, 0px, 0px);&quot;&gt;
+      <b:widget-setting name='content'>&lt;div class=&quot;page-header min-vh-75 relative&quot; style=&quot;background-image: url(&amp;quot;https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Buzz_salutes_the_U.S._Flag-crop.jpg/800px-Buzz_salutes_the_U.S._Flag-crop.jpg&amp;quot;)&quot;&gt;
+    &lt;span class=&quot;mask bg-gradient-primary opacity-4&quot;&gt;&lt;/span&gt;
     &lt;div class=&quot;container&quot;&gt;
-        &lt;div class=&quot;row&quot;&gt;
-            &lt;div class=&quot;col-md-8 ml-auto mr-auto&quot;&gt;
-                &lt;div class=&quot;brand&quot;&gt;
-                    &lt;h1&gt;Material Kit Blogger Template&lt;/h1&gt;
-                    &lt;h3&gt;Make your blogger more professional. Based on Material Design.&lt;/h3&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-lg-7 text-center mx-auto&quot;&gt;
+          &lt;h1 class=&quot;text-white pt-3 mt-n5&quot;&gt;Material Kit Blogger Template&lt;/h1&gt;
+          &lt;p class=&quot;lead text-white mt-3&quot;&gt;Free &amp;amp; Open Source Web UI Kit built over Bootstrap 5. &lt;br /&gt; Join over 1.6 million developers around the world. &lt;/p&gt;
         &lt;/div&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-&lt;/div&gt;</b:widget-setting>
+  &lt;/div&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -197,16 +544,16 @@ div.innerHTML = summary;
     <b:widget-settings>
       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
       <b:widget-setting name='commentLabel'>Comments</b:widget-setting>
-      <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showShareButtons'>false</b:widget-setting>
       <b:widget-setting name='authorLabel'>Posted by:</b:widget-setting>
       <b:widget-setting name='showCommentLink'>false</b:widget-setting>
-      <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+      <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showAuthor'>false</b:widget-setting>
-      <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+      <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-      <b:widget-setting name='reactionsLabel'>reactionsLabel</b:widget-setting>
+      <b:widget-setting name='reactionsLabel'/>
       <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
       <b:widget-setting name='showLabels'>false</b:widget-setting>
@@ -1204,10 +1551,10 @@ var relatedPostConfig = {
 </div>
    
 	<hr/>
-	<div class="sharing-area text-center">
-        <a id="github" href="https://github.com/skiddow/Material-Kit-Blogger-Template" class="btn btn-raised btn-github">
-            <i class="fa fa-github"></i> Github page
-          <div class="ripple-container"></div></a>
+	<div class='sharing-area text-center'>
+        <a class='btn btn-raised btn-github' href='https://github.com/skiddow/Material-Kit-Blogger-Template' id='github'>
+            <i class='fa fa-github'/> Github page
+          <div class='ripple-container'/></a>
         </div>
 	
 	
@@ -1239,27 +1586,27 @@ jQuery(document).ready(function($) {
 </script>
 	
 <!--   Core JS Files   -->
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/perfect-scrollbar.min.js"></script>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/core/popper.min.js' type='text/javascript'/>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/core/bootstrap.min.js' type='text/javascript'/>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/perfect-scrollbar.min.js'/>
 
 <!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/countup.min.js"></script>
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/choices.min.js"></script>
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/prism.min.js"></script>
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/highlight.min.js"></script>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/countup.min.js'/>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/choices.min.js'/>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/prism.min.js'/>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/highlight.min.js'/>
 
 
 <!--  Plugin for Parallax, full documentation here: https://github.com/dixonandmoe/rellax -->
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/rellax.min.js"></script>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/rellax.min.js'/>
 <!--  Plugin for TiltJS, full documentation here: https://gijsroge.github.io/tilt.js/ -->
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/tilt.min.js"></script>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/tilt.min.js'/>
 <!--  Plugin for Selectpicker - ChoicesJS, full documentation here: https://github.com/jshjohnson/Choices -->
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/choices.min.js"></script>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/choices.min.js'/>
 
 
 <!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
-<script src="https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/parallax.min.js"></script>
+<script src='https://skiddow.github.io/Material-Kit-Blogger-Template/assets/js/plugins/parallax.min.js'/>
 	
 </body>
 </html>
