@@ -1,6 +1,5 @@
-# Material Kit Blogger Template
-Material Kit Blogger Template based on [material-kit](https://github.com/creativetimofficial/material-kit).
--[Please note that there is more to edit in this template]
+# Material Kit Blogger Template    
+[Please note that there is more to edit in this template]
 
 Demo: https://materialkit.blogspot.com/
 
