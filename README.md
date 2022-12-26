@@ -1,8 +1,9 @@
 # Material Kit Blogger Template
+[Please note that there is more to edit in this template]
 
 Demo: https://materialkit.blogspot.com/
 
-##Comment section.
+### Comment section.
 
 Find below line and replace it with your Disqus script
 ```
